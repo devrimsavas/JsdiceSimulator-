@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="dicestyle.css">
+<title>Dice Simulation</title>
+</head>
+<body>
+<div class="container">
+    <h1>Dice Simulation</h1>
+    <div class="input-group">
+        <label for="diceFaces">Number of Faces:</label>
+        <input type="number" id="diceFaces" value="6" min="2">
+    </div>
+    <div class="input-group">
+        <label for="rollTimes">Roll Times:</label>
+        <input type="number" id="rollTimes" value="1000" min="1">
+    </div>
+    <button id="simulateButton">Run Simulation</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Face</th>
+                <th>Frequency</th>
+            </tr>
+        </thead>
+        <tbody id="resultsTable">
+            <!-- Results   -->
+        </tbody>
+    </table>
+</div>
+<script src="dicescript.js"></script>
+</body>
+</html>
+

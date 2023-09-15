@@ -1,0 +1,1 @@
+it is a dice simulator using "map" method. Actually normally, i prefer to write a short class for dice which is better. but since i wanted to make some exercise with map, i prefered this method. However, you can write same script with class. Program asks you how many times dice will be rolled and how many faces dice has. and just see results .
